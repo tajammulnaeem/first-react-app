@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: .5rem 0rem;
+    background-color: #6BD2F9;
+
+}
+
+ul {
+    display: inherit;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+a {
+    font-size: inherit;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.logo-name {
+    display: inherit;
+    align-items: center;
+}
+.margin{
+    margin-left: 5rem;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.5rem;
+}
+
+.logo-text {
+    font-size: 2rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #6BD2F9;
+    padding: 2rem 3rem;
+    margin: 2.5rem 2.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
